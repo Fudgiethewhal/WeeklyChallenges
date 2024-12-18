@@ -1,0 +1,34 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=21602b6e_002D3448_002D4b68_002Db49b_002D880bba87ca30/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreTwoNumbersTheSame #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net6.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.AreTwoNumbersTheSame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38f3d81a_002Da1ce_002D43c5_002D97b5_002D0941580181e0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreTwoNumbersTheSame #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net6.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.AreTwoNumbersTheSame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6c901514_002D4bcb_002D4b81_002D9165_002Dd62f1c2445a9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ChallengesSet01Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ccedfdb_002D1906_002D4a58_002D8c69_002Ddc8c18a580e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreTwoNumbersTheSame" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net6.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.AreTwoNumbersTheSame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=890cd736_002Dd92e_002D478e_002Dae7f_002D0144cae9e8eb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreTwoNumbersTheSame #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net6.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.AreTwoNumbersTheSame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a5528103_002D9b87_002D4b2d_002D938d_002De473fa8c91eb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AreTwoNumbersTheSame #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.AreTwoNumbersTheSame&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b6ff9aa2_002Db62b_002D47bc_002D8deb_002Df119791249fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.Design;
 using Xunit;
 
 namespace ChallengesWithTestsMark8.Tests
@@ -15,19 +16,19 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(4, 7, false)]
         [InlineData(-1, 1, false)]
         [InlineData(5, 6, false)]
-        public void AreTwoNumbersTheSame(int number1, int number2, bool expected)
+        public void AreTwoNumbersTheSame(int num1, int num2, bool expected)
         {
-            // Arrange
+            //Arrange
             ChallengesSet01 challenger = new ChallengesSet01();
-
-            // Act
-            bool actual = challenger.AreTwoNumbersTheSame(number1, number2);
-
-            // Assert
+            
+            //Act
+            bool actual = challenger.AreTwoNumbersTheSame(num1, num2);
+            
+            //Assert
             Assert.Equal(expected, actual);
         }
 
-        [Theory]
+        [Theory]  
         [InlineData(10, 7, 3)]
         [InlineData(100, 75, 25)]
         [InlineData(1, 1, 0)]
