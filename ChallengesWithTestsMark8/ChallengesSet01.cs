@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.Design;
+using System.Net.Http.Headers;
 
 namespace ChallengesWithTestsMark8
 {
@@ -28,17 +30,29 @@ namespace ChallengesWithTestsMark8
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            int smallerNumber = number1 < number2 ? number1 : number2;
+            Console.WriteLine($"The smaller number is: {smallerNumber}");
+            
+            int sum = number1 + number2;
+            
+            return smallerNumber;
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            long result = factor1 * factor2;
+
+            Console.WriteLine($"The product of {factor1} and {factor2} is: {result}");
+            
+            return result;
+            
         }
 
-        public string GetGreeting(string nameOfPerson)
+        public static void GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hello, what is your name?");
+            string userName = Console.ReadLine();
+            Console.WriteLine($"Hello, {nameOfPerson}!");
         }
 
         public string GetHey()
