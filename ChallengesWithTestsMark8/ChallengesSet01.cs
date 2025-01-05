@@ -48,16 +48,26 @@ namespace ChallengesWithTestsMark8
             
         }
 
-        public static void GetGreeting(string nameOfPerson)
+        public string GetGreeting(string personName)
         {
-            Console.WriteLine("Hello, what is your name?");
-            string userName = Console.ReadLine();
-            Console.WriteLine($"Hello, {nameOfPerson}!");
-        }
+            Console.WriteLine("What is your name?");
 
+            if(String.IsNullOrEmpty(personName))
+            {
+                return "Hello!";
+            }
+            else
+            {
+                return $"Hello, {personName}!";
+            }
+        }
+        
         public string GetHey()
         {
-            throw new NotImplementedException();
+            Console.WriteLine();
+            {
+                return $"HEY!";
+            }
         }
     }
 }

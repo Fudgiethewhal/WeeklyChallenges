@@ -1,12 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1821b4c1_002D1046_002D4acc_002D9b72_002D06836cf064df/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetSmallestNumber #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f8074a5a_002Db8d7_002D43c0_002Daa69_002D17b2d927ceb1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ChallengesSet01Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.GetSmallestNumber&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.Multiply&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=68c14e9d_002Dc324_002D49ff_002D98c5_002D83b851c6acf1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetSmallestNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests.GetSmallestNumber&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet01Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
