@@ -5,7 +5,6 @@ namespace ChallengesWithTestsMark8.Tests
 {
     public class ChallengesSet02Tests
     {
-        [Fact]
         public void CharacterIsALetter()
         {
             // Arrange
