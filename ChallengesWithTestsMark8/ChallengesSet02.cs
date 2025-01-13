@@ -50,7 +50,16 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null)
+            {
+                return 0;
+            }
+
+            if (numbers.Count() == 0)
+            {
+                return 0;
+            }
+            return numbers.Min() + numbers.Max();
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
@@ -61,15 +70,13 @@ namespace ChallengesWithTestsMark8
 
         public int Sum(int[] numbers)
         {
-            int sum = 0;
-            foreach (var item in numbers)
+            if (numbers == null)
             {
-                sum += item;
+                return 0;
             }
-            return sum;
-            return numbers == null || numbers.Length == 0 ? 0 : numbers.Sum();
+            return numbers.Sum();
         }
-        
+
 
         public int SumEvens(int[] numbers)
         {
@@ -102,7 +109,30 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            var count = 0;
+
+            if (number == 1 || number <= 0)
+            {
+                return 0;
+            }
+
+            for (long i = number; i > 0; i--)
+            {
+                if (i % 2 == 0)
+                {
+                    count++;
+                }
+            }
+            return count;
+
+            if (number <= 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return number / 2;
+            }
         }
     }
 }
