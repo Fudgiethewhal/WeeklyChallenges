@@ -80,15 +80,20 @@ namespace ChallengesWithTestsMark8
 
         public int SumEvens(int[] numbers)
         {
-            int sum = 0;
+            if (numbers == null)
+            {
+                return 0;
+            }
+            var evenSum = 0;
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 if (numbers[i] % 2 == 0)
                 {
-                    sum += numbers[i];
+                    evenSum += numbers[i];
                 }
             }
-            return sum;
+            return evenSum;
         }
 
         public bool IsSumOdd(List<int> numbers)

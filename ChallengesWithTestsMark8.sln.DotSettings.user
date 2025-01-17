@@ -1,6 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ff26eb9_002D7b5a_002D458c_002D9adf_002D5450053a1127/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ChallengesSet02Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f2e3c14_002D4cb9_002D45be_002D8589_002D1e426693d416/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ArrayContainsAFalse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet02Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet03Tests.ArrayContainsAFalse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet03Tests.GetFirstLetterOfString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net8.0::ChallengesWithTestsMark8.Tests.ChallengesSet03Tests.GetLastLetterOfString&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
