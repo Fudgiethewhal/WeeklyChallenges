@@ -25,7 +25,6 @@ namespace ChallengesWithTestsMark8
             }
 
             return sum;
-            return numbers.Where(x =>  % 2 == 0).Sum() - numbers.Where(x => x % 2 != 0).Sum();
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
@@ -57,10 +56,11 @@ namespace ChallengesWithTestsMark8
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            return (sideLength1 + sideLength2 > sideLength3 &&
-                    sideLength1 + sideLength2 > sideLength3) &&
-                   sideLength2 + sideLength3 > sideLength1);
+            return sideLength1 + sideLength2 > sideLength3 &&
+                   sideLength1 + sideLength2 > sideLength3 &&
+                   sideLength2 + sideLength3 > sideLength1;
         }
+        
     
 
         public bool IsStringANumber(string input)
@@ -104,19 +104,24 @@ namespace ChallengesWithTestsMark8
             if (n.Count() == 0)
             {
                 return 0;
-                return n.Average();
             }
-            
+
+            return n.Average();
         }
 
         public int Factorial(int number)
         {
-            if (number == 0)
+            var fact = 1;
+            if(number < 0)
             {
-                return 1;
+                throw new ArgumentOutOfRangeException();
             }
-            return number * Factorial(number - 1); 
+
+            for (int i = number; i > 0; i--)
+            {
+                fact *= i;
+            }
+            return fact;
         }
     }
 }    
-
