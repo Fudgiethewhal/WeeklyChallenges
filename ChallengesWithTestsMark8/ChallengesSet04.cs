@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 namespace ChallengesWithTestsMark8
@@ -47,6 +48,7 @@ namespace ChallengesWithTestsMark8
 
             return smallest;
         }
+    
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
@@ -59,7 +61,7 @@ namespace ChallengesWithTestsMark8
                     sideLength1 + sideLength2 > sideLength3) &&
                    sideLength2 + sideLength3 > sideLength1);
         }
-    }
+    
 
         public bool IsStringANumber(string input)
         {
@@ -92,29 +94,17 @@ namespace ChallengesWithTestsMark8
 
         public double AverageEvens(int[] numbers)
         {
-            double sum = 0;
-            double count = 0;
-
-            if (numbers == null)
+            if (numbers == null || numbers.Length == 0)
             {
                 return 0;
             }
 
-            foreach (var in numbers)
-            {
-                if (num % 2 == 0)
-                {
-                    sum += num;
-                    count++;
-                }
-            }
-            if (count > 0)
-            {
-                return sum / count;
-            }
-            else
+            var n = numbers.Where(num => num % 2 == 0);
+            
+            if (n.Count() == 0)
             {
                 return 0;
+                return n.Average();
             }
             
         }
