@@ -7,17 +7,35 @@ namespace ChallengesWithTestsMark8
     {
         public int GetNextNumberDivisibleByN(int startNumber, int n)
         {
-            throw new NotImplementedException();
+            return ((startNumber / n) + 1) * n;
         }
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
         {
-            throw new NotImplementedException();
+            for (var i = 0; i < businesses.Length; i++)
+            {
+                if(businesses[i].TotalRevenue == 0)
+                { 
+                    businesses[i].Name = "CLOSED";
+                }
+            }
         }
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0)
+            {
+                return false;
+            }
+            for (var i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i] < numbers[i - 1])
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)
