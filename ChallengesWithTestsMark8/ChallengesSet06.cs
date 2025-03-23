@@ -106,7 +106,17 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryNthElement(List<double> elements, int n)
         {
-            throw new NotImplementedException();
+            var nthElement = new List<double>();
+            if (elements == null || n <= 0 || n > elements.Count)
+            {
+                return nthElement.ToArray();
+            }
+
+            for (var i = n - 1; i < elements.Count; i += n)
+            {
+                nthElement.Add(elements[i]);
+            }
+            return nthElement.ToArray();
         }
     }
 }
